@@ -2,7 +2,7 @@
 
 .quicksand{
     font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
+    /* font-optical-sizing: auto; */
     font-weight: 700;
     font-style: normal;
   }
@@ -16,6 +16,7 @@
   
 
 /* Share style */
+
 .display-flex{
     display: flex;
 }
@@ -85,8 +86,16 @@ color: rgb(5, 212, 223);
     
 }
 
+.nav-icon{
+    width: 200px;
+    height: 60px;
+    
+    gap: 10px;
+}
+
 .nav-title{
-    font-size: 0.8rem;
+    margin: 15px 0px;
+    font-size: 28px;
 }
 
 .nav-item{
@@ -115,6 +124,46 @@ color:rgb(1, 172, 253) ;
 }
 
 .hero-title{
+    padding: 0px;
+    margin: 46px 0px 0px 0px;
     font-size: 56px;
     line-height: 60px;
+}
+
+.hero-description{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 24px 0px;
+}
+
+
+
+/* Responsible media quary */
+
+/* small device breakpoint 576px */
+@media screen and (max-width: 576px) {
+    .nav-title,
+    .nav-item,
+    .btn-1{
+        display: none;
+    }
+
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-content{
+        margin: 20px 0px;
+        padding: 0px;
+    }
+
+
+    #header{
+        margin: 0 auto;
+    }
+
+    
 }
