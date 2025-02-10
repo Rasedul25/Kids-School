@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.quicksand{
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .raleway{
+    font-family: "Raleway", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+
+/* Share style */
+.display-flex{
+    display: flex;
+}
+
+.btn-1{
+    width: 195px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background: rgb(254, 163, 1);
+    font-size: 20px;
+    border-style: none;
+    
+}
+
+.btn-2{
+    width: 195px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+    color: white;
+    background: rgb(17, 17, 17);
+    font-size: 20px;
+    border-style: none;
+    
+}
+
+header{
+   margin-left: 140px;
+   margin-right: 140px;
+    
+}
+
+/* Navbar style */
+ul>li{
+    list-style: none;
+}
+
+#home{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(254, 163, 1);
+}
+
+#about{
+font-size: 20px;
+text-decoration: none;
+color: rgb(1, 172, 253);
+}
+
+#facilities{
+font-size: 20px;
+text-decoration: none;
+color: rgb(5, 212, 223);
+}
+
+#admission{
+ font-size: 20px;
+ text-decoration: none; 
+ color: rgb(93, 88, 239);  
+}
+
+.navbar{
+    justify-content: space-between;
+    gap: 185px;
+    
+}
+
+.nav-title{
+    font-size: 0.8rem;
+}
+
+.nav-item{
+    gap: 32px;
+}
+
+
+/* hero-section style */
+
+.hero{
+    justify-content: space-between;
+     gap: 70px;
+    
+}
+
+.hero-content{
+    margin: 122px 0px;
+}
+
+.Empowering{
+    color:rgb(254, 163, 1) ;
+}
+
+.towards{
+color:rgb(1, 172, 253) ;
+}
+
+.hero-title{
+    font-size: 56px;
+    line-height: 60px;
+}
