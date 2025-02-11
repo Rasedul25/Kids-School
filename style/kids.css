@@ -242,6 +242,7 @@ ul>li {
 
 /* small device breakpoint 576px */
 @media screen and (max-width: 576px) {
+/* nav and hero  */
 
     .nav-title,
     .nav-item,
@@ -264,6 +265,23 @@ ul>li {
 
     #header {
         margin: 0 auto;
+    }
+
+    /* Curriculam responsib */
+
+    .cv-title {
+        font-size: 26px;
+        text-align: center;
+    
+    }
+
+    .curriculam{
+        width: 90vw;
+        justify-content: center;
+    }
+
+    .cv-container{
+        grid-template-columns: repeat(1, 1fr);
     }
 
 
