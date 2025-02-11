@@ -140,7 +140,7 @@ ul>li {
 /* Curriculam-section style */
 
 .curriculam {
-    border-top: 3px dashed gray;
+    border-top: 2px dashed gray;
 }
 
 .cv-title {
@@ -155,7 +155,7 @@ ul>li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 80px auto;
-   
+
 }
 
 .box-title {
@@ -238,11 +238,81 @@ ul>li {
 }
 
 
+/* Our-Story-section-style */
+
+.our-stories {
+    border-top: 2px dashed gray;
+    font-size: 24px;
+    text-align: center;
+    background: url(/images/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+
+.story-btn-1 {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 35px;
+    width: 174px;
+    height: 47px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+}
+
+/* Card- box */
+
+.stories-card-container {
+    gap: 18px;
+    width: 80%;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.box-content {
+    padding-left: 35px;
+}
+
+.card-box {
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    text-align: left;
+
+}
+
+.single-box-title-1 {
+    font-size: 24px;
+
+
+}
+
+.single-box-description {
+    font-size: 15px;
+
+
+}
+
+.multiple-card-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.single-box-title-2{
+    font-size: 15px;
+}
+
+.story-btn{
+    margin: 80px auto;
+    margin-bottom: 60px;
+}
+
+
 /* Responsible media quary */
 
 /* small device breakpoint 576px */
 @media screen and (max-width: 576px) {
-/* nav and hero  */
+    /* nav and hero  */
 
     .nav-title,
     .nav-item,
@@ -272,15 +342,15 @@ ul>li {
     .cv-title {
         font-size: 26px;
         text-align: center;
-    
+
     }
 
-    .curriculam{
+    .curriculam {
         width: 90vw;
         justify-content: center;
     }
 
-    .cv-container{
+    .cv-container {
         grid-template-columns: repeat(1, 1fr);
     }
 
