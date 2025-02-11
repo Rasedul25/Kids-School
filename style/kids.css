@@ -121,6 +121,11 @@ ul>li {
     margin: 122px 0px;
 }
 
+.hero-img{
+    max-width: 100%;
+    height: auto;
+}
+
 .Empowering {
     color: rgb(254, 163, 1);
 }
@@ -393,6 +398,8 @@ footer{
         margin: 20px 0px;
         padding: 0px;
     }
+
+    
 
 
     #header {
