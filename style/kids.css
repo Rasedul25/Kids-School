@@ -108,6 +108,13 @@ ul>li {
     gap: 32px;
 }
 
+#menu-icon {
+    
+    display: none;
+    max-width: 100%;
+    height: auto;   
+}
+
 
 /* hero-section style */
 
@@ -385,6 +392,16 @@ footer{
     .cv-btn-container,
     .single-card-box {
         display: none;
+    }
+
+    #menu-icon{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+        
+
+        
     }
 
 
